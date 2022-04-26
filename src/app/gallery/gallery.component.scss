@@ -1,0 +1,56 @@
+
+
+  img {
+    border-radius: 8px !important;
+    width: 100% !important;
+    height: 100%;
+}
+
+.slide
+{
+    width: auto;
+    height: 15rem !important;
+}
+
+header
+{
+    height: 220vh;
+    background-color:darkslategray;
+}
+
+@media screen and (max-width:800px){
+ header{
+     height: 300vh;
+ }
+
+    h2{
+        text-align: center;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+h2{
+font-size: 3rem;
+font-family: 'lato' ,sans-serif;
+color: white;
+} 
+.myPosition
+{
+    position: relative;
+    top: 10rem;
+}
+.myPosition2
+{
+    position: relative;
+    top: 15rem;
+}
+
+.myPosition3
+{
+    position: relative;
+    top: 20rem;
+}
+owl-carousel-o
+{
+    cursor:grab;
+    
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.myBg
+{
+    background-color:rgba(255,255,255,0.8) ;
+}
+a 
+{
+    text-decoration: none;
+}
+.brand-font
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 2.3rem;
+}
+.brand-color
+{
+    color: orangered;
+    
+}
+.btn
+{
+    font-size: 1.2rem;
+    font-family: 'Anton' , sans-serif;
+}
+button:active, button:focus
+{
+    
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.nav-font
+{
+    font-family: 'Anton' , sans-serif;
+    font-size: 1.4rem;
+    
+}
+.btns
+{
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width:900px){
+    
+    .btns{
+        position: relative;
+        
+        margin-right: 0;
+    
+    
+    }
+}
+@media screen and (min-width:900px){
+.ul-position
+{
+    position: absolute;
+    right: 25%;
+}
+}
+nav li 
+{
+    margin-left: 1rem;
+    
+}
+nav li a:hover{
+    color: orangered;
+
+}
+nav li a 
+{
+    transition: all 0.5s;
+    color: black;
+}
+.isActive
+{
+    color: orangered !important;
+    font-size: 1.6rem;
+    
+}

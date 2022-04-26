@@ -1,0 +1,41 @@
+
+.body
+ {
+     background-image: url(../../assets/images/about.jpg);
+     height: 200vh;
+     background-size:cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+ }
+ @media screen and (max-width:800px) {
+     .body{
+         height: 300vh
+     }
+ }
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@800&display=swap');
+
+
+.who
+{
+    position: relative;
+    top: 10rem;
+    background-color: rgb(219,219,219);
+    padding: 2rem;
+}
+.who p 
+{
+    font-family: 'lato' , sans-serif;
+    font-size: 1.2rem;
+}
+.location
+{
+    position: relative;
+    top: 10rem;
+    background-color: rgb(219,219,219);
+    padding: 2rem;
+}
+.location p 
+{
+    font-family: 'lato' , sans-serif;
+    font-size: 1.2rem;
+}

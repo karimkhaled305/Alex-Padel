@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.myBg {
+
+        background-image: url(../../assets/images/Opening.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 120vh;
+
+        font-family: 'anton', sans-serif;
+
+}
+
+.viewPage h2 {
+        color: white;
+        font-size: 5rem;
+     
+}
+
+.overlay {
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 120vh;
+
+}
+
+.myBtn {
+        margin-left: 50%;
+        width: 10rem;
+        background-color: orangered;
+        color: white;
+        border: none;
+        font-size: 2rem;
+        border-radius: 30px;
+        transition: all 0.5s;
+        padding: 8px;
+        
+}
+
+.myBtn:hover {
+        background-color: white;
+        color: orangered;
+        border-radius: 8px;
+}

@@ -1,0 +1,70 @@
+.body
+ {
+     background-image: url(../../assets/images/Opening.jpg);
+     height: 100vh;
+     background-size:cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+ }
+ @media screen and (max-width:800px) {
+     .body{
+         height: 350vh;
+     }
+     img {
+         margin-bottom: 15px;
+     }
+     .overlay
+     {
+         height: 350vh !important;
+     }
+
+     h2,p {
+         font-size: 2rem;
+     }
+ }
+
+
+.row
+{
+    position:relative;
+    top:10rem;
+}
+.overlay
+{
+    background-color: rgba(0,0,0,0.4);
+    height: 100vh;
+}
+
+.shad {
+    overflow: hidden;
+}
+.shad2 {
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.shad img{
+    width: 100%;
+    transition: transform 1s 1s;
+}
+.shad:hover img
+{
+    transform: scale(1.5,1.5);
+   
+}
+
+.shad2:hover{
+    opacity: 1;
+
+}
+.info 
+{
+    position: relative;
+    left: 105%;
+    transition: all 1s 0.5s;
+    
+}
+.shad:hover .info {
+    left: 0%;
+}

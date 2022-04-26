@@ -1,0 +1,25 @@
+<div class="container-fluid">
+
+    <div class="regBox mx-auto p-4 d-flex align-items-center flex-column">
+        
+<img src="../../assets/images/Logo Brand.png" class="w-25 mb-2">
+        <h2 class="text-center mb-4">Log in</h2>
+        <form [formGroup]="regForm" class="w-75">
+           
+            <div class="email mb-3">
+                <input type="text" class=" form-control w-100 mx-auto" placeholder="email *" id="email"
+                    formControlName="email">
+            </div>
+            <div class="password mb-5">
+                <input type="password" class=" form-control w-100 mx-auto" placeholder="password *" id="password"
+                    formControlName="password">
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-outline-dark mb-3">Log in</button>
+                <p>haven't an account</p>
+                <button type="button" class="btn btn-primary">Register Now..</button>
+            </div>
+        </form>
+    </div>
+
+</div>
